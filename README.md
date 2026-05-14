@@ -1,12 +1,11 @@
-# 🚀 My Portfolio — React + Vite + Tailwind CSS
+# Harsh Limbasiya — Frontend Developer Portfolio
 
-A modern, dark-themed frontend developer portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
+A modern, dark-themed frontend developer portfolio built with React, Vite, and Framer Motion.
 
 ---
 
 ## 📁 Folder Structure
 
-```
 portfolio/
 ├── public/
 │   └── favicon.svg          ← browser tab icon
@@ -27,74 +26,58 @@ portfolio/
 │   │   ├── Contact.jsx
 │   │   └── Footer.jsx
 │   ├── App.jsx              ← assembles all sections
-│   ├── data.js              ← ✏️  YOUR CONTENT LIVES HERE
-│   ├── index.css            ← global styles + Tailwind
+│   ├── data.js              ← edit your info here
+│   ├── index.css            ← global styles
 │   └── main.jsx             ← React entry point
-├── index.html               ← SEO meta tags + fonts
+├── index.html
 ├── tailwind.config.js
 ├── vite.config.js
 └── package.json
-```
 
 ---
 
-## ✏️ How to Personalize
+## How to Personalize
 
-**Only edit `src/data.js`** — all sections pull content from there:
-
-- Change `personalInfo.name`, `email`, `github`, `linkedin`
-- Update `skills` array with your real skill levels
-- Add your actual projects in the `projects` array
+  src/data.js — all sections pull content from there:
+- Change your name, email, GitHub, LinkedIn
+- Update your skill levels
+- Add your projects
 
 ---
 
-## ⚡ Getting Started
+## Getting Started
 
-```bash
-# 1. Install dependencies
-npm install
+# Install dependencies
+yarn
 
-# 2. Start dev server
+# Start dev server
+yarn dev
+
+---
+
+## Deployed On
+
+GitHub: https://github.com/Harsh6543/portfolio
+Live:   https://harsh6543.github.io/portfolio
+
+---
+
+## Built With
+
+| Tech          | Purpose          |
+|---------------|------------------|
+| React 18      | UI components    |
+| Vite 5        | Dev server/build |
+| CSS3          | Styling          |
+| Framer Motion | Animations       |
+
+---
+
+## Scripts
+
+# Development server
 npm run dev
 
-# 3. Open in browser
-# http://localhost:5173
-```
+# Production build
+npm run build
 
----
-
-## 🌐 Deploy to Vercel (Free)
-
-```bash
-# 1. Push to GitHub
-git init
-git add .
-git commit -m "initial portfolio"
-git remote add origin https://github.com/yourusername/portfolio.git
-git push -u origin main
-
-# 2. Go to vercel.com → Import your GitHub repo → Deploy
-# Done! Your portfolio is live in ~60 seconds.
-```
-
----
-
-## 🛠️ Tech Stack
-
-| Tech | Purpose |
-|------|---------|
-| React 18 | UI components |
-| Vite 5 | Fast dev server & build |
-| Tailwind CSS 3 | Utility-first styling |
-| Framer Motion | Animations |
-| Lucide React | Icons |
-
----
-
-## 📦 Scripts
-
-```bash
-npm run dev      # development server
-npm run build    # production build → dist/
-npm run preview  # preview production build locally
-```
